@@ -1,31 +1,28 @@
-<p align="center">
-  <img src="assets/C++.png" alt="C++ Logo" width="300"/>
-</p>
+# C++
 
-# Supreme C++ ✨
+![C++ Logo](Logo%20cpp.png)
 
-> Elegance • Logic • Power  
-> MSP 2025
+## 🇨🇦 Welcome to the C++ Repository (EN-CA)
+
+This repository is dedicated to exploring the beauty, simplicity, and robustness of the C++ language.  
+Here you will find well-documented source code, organized by purpose and efficiency.
+
+From basic syntax to advanced algorithms, this is a space to study, grow, and master C++.
+
+> *"Clarity is the soul of code."*
 
 ---
 
-## 🇨🇦 EN-CA – Introduction
+## 🇫🇷 Bienvenue dans le dépôt C++ (FR-CA)
 
-Welcome to **Supreme C++**, a professional and poetic repository dedicated to the C++ programming language. Here you'll find elegant implementations, efficient logic, and creative thinking applied to engineering, game design, and automation.
+Ce dépôt est dédié à l’exploration de la beauté, de la simplicité et de la robustesse du langage C++.  
+Vous y trouverez du code source bien documenté, organisé selon l’objectif et l’efficacité.
 
-### 📌 Purpose
+De la syntaxe de base aux algorithmes avancés, cet espace vise l’apprentissage et la maîtrise du C++.
 
-This repository reflects the personal journey of MSP — an artist, writer and mechatronic engineer — in mastering C++ for real-world applications, academic development, and game engines like Unreal.
+> *« La clarté est l’âme du code. »*
 
-### 🧠 Philosophy
+---
 
-We believe in:
-- Clarity over complexity
-- Functionality over aesthetics (but always with elegance)
-- Deep understanding of memory, performance, and structure
-
-### 🔧 Compile & Run
-
-```bash
-g++ main.cpp -o main
-./main
+**Author:** MSP 2025  
+**Repository:** [ValhallaRising1974/C-](https://github.com/ValhallaRising1974/C-)

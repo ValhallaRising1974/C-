@@ -1,0 +1,22 @@
+name: C++ Workflow
+
+on:
+  push:
+    paths:
+      - '**.cpp'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Compile main.cpp
+      run: g++ main.cpp -o main
+
+    - name: Run the program
+      run: ./main

@@ -2,21 +2,23 @@ name: C++ Workflow
 
 on:
   push:
-    paths:
-      - '**.cpp'
-      - '.github/workflows/**'
-  workflow_dispatch:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Compile main.cpp
-      run: g++ main.cpp -o main
+      - name: Set up g++
+        run: sudo apt-get update && sudo apt-get install -y g++
 
-    - name: Run the program
-      run: ./main
+      - name: Compile C++ code
+        run: g++ -std=c++17 -Wall -Wextra -o main main.cpp
+
+      - name: Run the program
+        run: ./main

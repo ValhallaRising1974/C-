@@ -1,0 +1,8 @@
+extern "C" bool checar_integridade_memoria(void* funcao_endereco);
+
+void loop_principal_jogo() {
+    if (!checar_integridade_memoria((void*)&calcular_posicao_jogador)) {
+        // Anticheat detectou manipulação na memória!
+        fechar_jogo_imediatamente();
+    }
+}
